@@ -13,7 +13,7 @@ Clone this repo:
 pip install -r requirements.txt 
 ```
 
-## Run makemigrations and migrate command
+## Run make migrations and migrate command
 
 ```
 python manage.py makemigrations
@@ -25,7 +25,6 @@ Now run this server:
 ```
 python manage.py runserver ```
 
-You will see that ASGI server will be running instead of normal WSGI sever.
+You will see that the ASGI server will be running instead of the normal WSGI server.
 
-
-
+Now connect to ws://127.0.0.1:8000/ws/test/  
